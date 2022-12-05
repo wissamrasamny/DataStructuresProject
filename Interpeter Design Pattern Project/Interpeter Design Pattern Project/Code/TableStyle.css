@@ -1,0 +1,36 @@
+
+.tutor {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .tutor td, .tutor th{
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #c8d7d6;
+  }
+  .tutor tr:nth-child(odd) td {background-color: #8fa9a1;}
+  
+  .tutor tr:hover {background-color: #8fa9a1;}
+  
+  .tutor th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #146353;
+    color: white;
+  }
+  #n0, #n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n10, #n11, #n12{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 10%;
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #c8d7d6;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
+  
+  
+  

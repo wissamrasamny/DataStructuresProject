@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<script>
+    function goTo(prop){
+        let dec = prop;
+
+        if(dec =="ELE"){
+            window.location.href = "ELE.html";
+        }
+        else if(dec =="GNE"){
+            window.location.href = "GNE.html";
+        }
+        else if(dec =="COE"){
+            window.location.href = "COE.html";
+        }
+        else if (dec =="INE"){
+            window.location.href = "INE.html";
+        }
+        else if(dec =="CIE"){
+            window.location.href = "CIE.html";
+        }
+        else if(dec =="MEE"){
+            window.location.href = "MEE.html";
+        }
+
+
+    }
+    
+</script>
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FristPage</title>
+    <link rel="stylesheet" href ="Styles.css"
+
+</head>
+<body class = background >
+    <section>  
+        <img src="/Users/user/Desktop/html/untitled2/logo.jpg" alt="LAU logo" id = "image" class = "center">
+    </section>
+    
+   
+<div> 
+    <h1>
+        Welcome to our tutoring services website
+        We Are here to help you
+    </h1>
+
+    <h2>
+        Please choose from the below which course the tutor information you want to know
+    </h2></div>
+<div style = "text-align: center; size: A4" >
+
+    <button type = "CIE" onclick= goTo("CIE") >CIE</button>
+    <button type = "COE" onclick= goTo("COE") >COE</button>
+    <button type = "ELE" onclick= goTo("ELE") >ELE</button>
+    <button type = "GNE" onclick= goTo("GNE") >GNE</button>
+    <button type = "INE" onclick= goTo("INE") >INE</button>
+    <button type = "MEE" onclick= goTo("MEE") >MEE</button>
+
+</div>
+
+</body>
+</html>

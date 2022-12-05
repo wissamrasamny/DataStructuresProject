@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+        
+<head>
+    <meta charset="UTF-8">
+    <title>CIE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+          <tr>
+            <th>TutorID</th>
+            <th>Course</th>
+            <th>Tutor</th>
+            <th>Room</th>
+            <th>Working Days</th>
+            <th>Time</th>
+          </tr>
+          <tr>
+            <td id="n0">test</td>
+            <td>Statics</td>
+            <td>Makram Fares</td>
+            <td>Zakhem 502</td>
+            <td >Wednesday</td>
+            <td>5:30-7:00</td>
+          </tr>
+          
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="CIE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script></html>

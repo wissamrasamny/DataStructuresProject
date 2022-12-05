@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+  
+<head>
+    <meta charset="UTF-8">
+    <title>ELE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+            <tr>
+              <th >TutorID</th>
+              <th>Course</th>
+              <th>Tutor</th>
+              <th>Room</th>
+              <th>Working Days</th>
+              <th>Time</th>
+            </tr>
+             <tr>
+              <td id ="n4"></td>
+              <td>ELE 302: Electrical Circuits II</td>
+              <td>Mohamad Al Kamoun</td>
+              <td>Frem 103A</td>
+              <td >Thursday</td>
+              <td>5:00-6:00</td>
+            </tr>
+            <tr>
+              <td id ="n5"></td>
+              <td>ELE 305: Introduction to Electrical Engineering</td>
+              <td>Chadi Chamoun</td>
+              <td>Frem 103G</td>
+              <td >Monday</td>
+              <td>5:00-6:00</td>
+            </tr>
+          
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="ELE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script>
+</html>

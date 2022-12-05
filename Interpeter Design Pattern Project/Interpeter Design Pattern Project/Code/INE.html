@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+        
+<head>
+    <meta charset="UTF-8">
+    <title>INE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+          <tr>
+            <th >TutorID</th>
+            <th>Course Name</th>
+            <th>Tutor</th>
+            <th>Room</th>
+            <th>Working Days</th>
+            <th>Time</th>
+          </tr>
+           <tr>
+            <td id ="n7"></td>
+            <td>INE 307</td>
+            <td>Christina Saliba</td>
+            <td>Zakhem 505, Frem 103H</td>
+            <td >Wednesdays and Fridays</td>
+            <td>6:00-7:00, 2:00-3:00</td>
+          </tr>
+          <tr>
+            <td id ="n8"></td>
+            <td>INE 320 : Engineering Economy I</td>
+            <td>Cyril El Mendelek</td>
+            <td>Frem 103A</td>
+            <td>Monday</td>
+            <td>4:00-6:00</td>
+          </tr>
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="INE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script>
+</html>

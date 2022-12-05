@@ -1,0 +1,83 @@
+h1{
+
+    color: white;
+    text-align: center;
+    background-color: #146353;
+
+}
+h2{
+    color : white;
+    text-align: center;
+    text-shadow: black;
+   
+}
+body{
+    background-color: solid white;
+    font-family: sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+  }
+button {
+    width:50px;
+    height: 20px;
+    background-color : #146353;
+    color : white;
+}
+button:hover {
+    background-color: #8fa9a1;
+}
+table{
+    width : 1875%;
+}
+
+
+  
+  a:hover, a:active {
+    background-color: #8fa9a1;
+  }
+
+
+  a:link, a:visited, button {
+    background-color : #146353;
+    color : white;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: content-box;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;-webkit-user-select: none;
+    touch-action: manipulation;
+    }
+
+.button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .button-37 {
+        padding: 10px 30px;
+    }
+}
+.background{
+    background-image: url("download.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-color: fade(#FFFFFF, 50%);
+    background-size: cover;
+    
+}

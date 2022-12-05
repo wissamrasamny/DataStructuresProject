@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>COE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+          <tr>
+            <th >TutorID</th>
+            <th>Course</th>
+            <th>Tutor</th>
+            <th>Room</th>
+            <th>Working Days</th>
+            <th>Time</th>
+          </tr>
+
+           <tr>
+            <td id ="n1">test</td>
+            <td>COE 212: Engineering Programming</td>
+            <td>Joanne Rizkallah</td>
+            <td>Science 407</td>
+            <td>Tuesday,Wednesday</td>
+            <td>5:00-6:00</td>
+          </tr>
+          <tr>
+            <td id ="n2"></td>
+            <td>COE 312: Data Structures</td>
+            <td>Wajih El Tayyar</td>
+            <td>Engineering auditorium</td>
+            <td>Monday</td>
+            <td>2:00-3:00</td>
+            
+          </tr>
+          <tr>
+            <td id ="n3">DC_01</td>
+            <td>COE 321: Logic Design</td>
+            <td>Dany Chaddad</td>
+            <td>Zakhem 606</td>
+            <td>Wednesday, Friday</td>
+            <td>6:00-7:00, 2:00-3:00</td>
+            
+          </tr>
+          
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="COE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script>
+</html>

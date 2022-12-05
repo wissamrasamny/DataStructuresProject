@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>CIE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+          <tr>
+            <th >TutorID</th>
+            <th>Course</th>
+            <th>Tutor</th>
+            <th>Room</th>
+            <th>Working Days</th>
+            <th>Time</th>
+          </tr>
+          <tr>
+            <td id ="n6"></td>
+            <td>Charbel Khoury</td>
+            <td>GNE 331: Probability and Statistics</td>
+            <td>Online</td>
+            <td >Tuesday</td>
+            <td>7:00-8:00</td>
+          </tr>
+          
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="GNE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script>
+</html>

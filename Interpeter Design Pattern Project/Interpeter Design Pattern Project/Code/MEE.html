@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>MEE Instructors</title>
+    <link href="TableStyle.css" media=screen rel="stylesheet" type=text/css>
+    <link href= "Styles.css" media=screen rel="stylesheet" type =text/css>
+</head>
+    <body>
+        <h1>Tutor Details</h1>
+        
+        <table class="tutor">
+          <tr>
+            <th >TutorID</th>
+            <th>Course</th>
+            <th>Tutor</th>
+            <th>Room</th>
+            <th>Working Days</th>
+            <th>Time</th>
+
+          </tr>
+           <tr>
+            <td id ="n9"></td>
+            <td>MEE 301: Thermodynamics</td>
+            <td>Josee Rizkallah</td>
+            <td>Frem 103A</td>
+            <td >Monday</td>
+            <td>1:00-2:00</td>
+            
+          </tr>
+          <tr>
+            <td id ="n10"></td>
+            <td>MEE 311:Fluids Mechanics</td>
+            <td>Georges Saab</td>
+            <td>Zakhem 505</td>
+            <td>Wednesday</td>
+            <td>3:00-5:00</td>
+            
+          </tr>
+          <tr>
+            <td id ="n11"></td>
+            <td>MEE 320:Strength of Materials</td>
+            <td>Christy Skaff</td>
+            <td>Zakhem 503</td>
+            <td>Wednesday</td>
+            <td>3:00-4:00</td>
+            
+          </tr>
+          <tr>
+            <td id ="n12"></td>
+            <td>MEE 414:Thermal Systems Design</td>
+            <td>Charbel Hanna</td>
+            <td>Zakhem 503</td>
+            <td>Thursday</td>
+            <td>5:30-7:00</td>
+            
+          </tr>
+        </table>
+        <button type = "Home" onclick="goTo()">Home</button>
+    </body>
+    <script type="text/javascript" src="MEE.js"></script>
+
+    <script>
+      function goTo(){
+        var link = document.createElement('a')
+        link.href = 'Main.html'
+        link.click()
+      }
+    </script>
+</html>
